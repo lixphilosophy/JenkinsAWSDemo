@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Lobster&display=swap');
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+.app {
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Jost', sans-serif;
+    font-size: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    background-color: #3c3c3c;
+}
+
+.subtitle {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding: 2px 10px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.85);
+}
